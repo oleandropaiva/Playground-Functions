@@ -25,14 +25,17 @@ function splitSentence() {
 // Desafio 4
 function concatName(parâmetro) {
   let primeiroItem = parâmetro [0]
-  let ultimoItem = parâmetro [parâmetro.length-1]
+  let ultimoItem = parâmetro[parâmetro.length -1]
   let cocatenar = ultimoItem + ", " + primeiroItem
-  return cocatenar
+  return cocatenar;
+ 
 }
 
+
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  placar = ties * 1 + wins * 3;
+  return placar;
 }
 
 // Desafio 6
