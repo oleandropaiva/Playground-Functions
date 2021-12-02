@@ -6,7 +6,7 @@ function compareTrue(x, y ) {
     return false;
   }
 }
-console.log (compareTrue ());
+//console.log (compareTrue ());
 
 // Desafio 2
 function calcArea(base, heigth) {
@@ -23,8 +23,11 @@ function splitSentence() {
 }
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(parâmetro) {
+  let primeiroItem = parâmetro [0]
+  let ultimoItem = parâmetro [parâmetro.length-1]
+  let cocatenar = ultimoItem + ", " + primeiroItem
+  return cocatenar
 }
 
 // Desafio 5
@@ -43,14 +46,15 @@ function catAndMouse() {
 }
 
 // Desafio 8
-function fizzBuzz() {
-  // seu código aqui
+function fizzBuzz(n) {
+  
 }
 
 // Desafio 9
 function encode() {
   // seu código aqui
 }
+
 function decode() {
   // seu código aqui
 }
