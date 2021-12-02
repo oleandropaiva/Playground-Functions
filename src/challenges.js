@@ -13,7 +13,7 @@ function calcArea(base, heigth) {
   const resultado = (base * heigth) / 2;
   return resultado;
 }
-const resultado = calcArea(10, 50)
+const resultado = calcArea()
 console.log(resultado)
 
 
