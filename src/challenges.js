@@ -49,9 +49,28 @@ function catAndMouse() {
 }
 
 // Desafio 8
-function fizzBuzz(n) {
+function fizzBuzz(number) {
+    for (let index = 0; index <= number.length; index +=1) {
+
+    if (index % 3 === 0) {
+      imprime ("fizz")
+
+    } else if (index % 5 === 0) {
+      imprime ("buzz") 
+
+    } else if  (index % 3 === 0 && index % 5 === 0) {
+        imprime ("fizzBuzz")
+
+      } else {
+        imprime ("bug!");
+      }
+    
+  }
+    
+
   
-}
+  
+
 
 // Desafio 9
 function encode() {
