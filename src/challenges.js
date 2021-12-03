@@ -50,7 +50,7 @@ function catAndMouse() {
 
 // Desafio 8
 function fizzBuzz(number) {
-    for (let index = 0; index <= number.length; index +=1) {
+    for (let index = 0; index < number.length; index +=1) {
 
     if (index % 3 === 0) {
       imprime ("fizz")
