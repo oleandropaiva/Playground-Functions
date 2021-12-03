@@ -50,22 +50,22 @@ function catAndMouse() {
 
 // Desafio 8
 function fizzBuzz(number) {
-    for (let index = 0; index < number.length; index +=1) {
-
-    if (index % 3 === 0) {
-      imprime ("fizz")
-
-    } else if (index % 5 === 0) {
-      imprime ("buzz") 
-
-    } else if  (index % 3 === 0 && index % 5 === 0) {
-        imprime ("fizzBuzz")
-
-      } else {
-        imprime ("bug!");
-      }
-    
+  const mensagem = [];
+  for (let msg of number) {
+    if (msg % 3 === 0 && msg % 5 === 0){
+      mensagem.push ('fizzBuzz')
+    } else if (msg % 3 === 0) {
+      mensagem.push ('fizz')
+    } else if (msg % 5 === 0) {
+      mensagem.push ('buzz')
+    } else {
+      mensagem.push ('bug!')
+    }
   }
+  return mensagem;
+}
+
+
     
 
   
