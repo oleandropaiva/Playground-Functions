@@ -14,13 +14,13 @@ function calcArea(base, heigth) {
   return resultado;
 }
 const resultado = calcArea()
-console.log(resultado)
+//console.log(resultado)
 
 
 // Desafio 3
 function splitSentence(gotrybe) {
   gotrybe = gotrybe.split (' ')
-
+//https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split
   return gotrybe;
 }
 
