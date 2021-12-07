@@ -18,8 +18,10 @@ console.log(resultado)
 
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(gotrybe) {
+  gotrybe = gotrybe.split (' ')
+
+  return gotrybe;
 }
 
 // Desafio 4
