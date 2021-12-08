@@ -54,10 +54,10 @@ function catAndMouse(mouse,cat1, cat2) { //https://www.youtube.com/watch?v=oFVid
    return "cat1"
  } else if (meters2 < meters1){
    return "cat2"
- } else
+ } else {
    return "os gatos trombam e o rato foge"
  }
-
+}
 
 // Desafio 8
 function fizzBuzz(number) {
