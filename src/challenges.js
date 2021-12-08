@@ -46,15 +46,15 @@ function highestCount() {
 }
 
 // Desafio 7
-function catAndMouse(mouse,cat1, cat2) {
-  let meters1 = cat1 - mouse;
-  let meters2 = cat2 - mouse;
+function catAndMouse(mouse,cat1, cat2) { //https://www.youtube.com/watch?v=oFVido-uiuI
+  let meters1 = Math.abs (cat1 - mouse); //A função Math.abs(x) retorna o valor absoluto de um número "x"
+  let meters2 = Math.abs (cat2 - mouse); //https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
  
  if (meters1 < meters2) {
    return "cat1"
  } else if (meters2 < meters1){
    return "cat2"
- } else if (meters1 === mouse && meters2 === mouse )
+ } else
    return "os gatos trombam e o rato foge"
  }
 
