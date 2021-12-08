@@ -42,17 +42,24 @@ function footballPoints(wins, ties) {
 
 // Desafio 6
 function highestCount(numeros) {
-  
-  let maiorNumero = Math.max (...numeros);
-  let repetir;
-  
-  for (let index = 0; index < numeros.lentgh; index +=1) {
-    if (numeros [index] === maiorNumero) {
-      repetir ++;
+      
+    let maiorNumero = numeros[0];
+    let result = 0;
+
+  for (let index = 0; index < numeros.length; index += 1) {
+    if (numeros [index] > maiorNumero) {
+      maiorNumero = numeros[index];
     }
   }
- return repetir;
+  for (let index = 0; index < numeros.length; index += 1) {
+    if (maiorNumero === numeros [index]) {
+      result += 1;
+  
+   }
+ }
+ return result;
 }
+
 
 // Desafio 7
 function catAndMouse(mouse,cat1, cat2) { //https://www.youtube.com/watch?v=oFVido-uiuI
