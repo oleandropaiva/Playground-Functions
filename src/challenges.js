@@ -10,7 +10,7 @@ function compareTrue(x, y ) {
 
 // Desafio 2
 function calcArea(base, heigth) {
-  const resultado = (base * heigth) / 2;
+  let resultado = (base * heigth) / 2;
   return resultado;
 }
 const resultado = calcArea()
@@ -93,7 +93,7 @@ function fizzBuzz(number) {
 }
 
 
-    
+    //
 
   
   
@@ -120,3 +120,6 @@ module.exports = {
   highestCount,
   splitSentence,
 };
+
+//https://www.luiztools.com.br/post/4-segredos-do-operador-spread-em-javascript/
+//https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax
